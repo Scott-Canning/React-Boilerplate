@@ -21,8 +21,7 @@
     "react-dom": "^18.2.0",
     "style-loader": "^3.3.1",
     "webpack": "^5.74.0",
-    "webpack-dev-server": "^4.9.3",
-    "webpack-server": "^0.1.2"
+    "webpack-dev-server": "^4.9.3"
   },
   "devDependencies": {
     "webpack-cli": "^4.10.0"
