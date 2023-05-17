@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/styles.css';
+import ExampleComponent from './ExampleComponent';
 
 ReactDOM.render(
-    <h1>Hello from index.js</h1>,
+    <ExampleComponent/>,
     document.querySelector(
       '#fromjs'
     )
