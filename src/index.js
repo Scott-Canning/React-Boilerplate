@@ -1,11 +1,9 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './styles/styles.css';
-import ExampleComponent from './ExampleComponent';
+import ReactDOM from "react-dom/client";
+import './styles/index.css';
+import App from './App';
 
-ReactDOM.render(
-    <ExampleComponent/>,
-    document.querySelector(
-      '#fromjs'
-    )
-  );
+ReactDOM.createRoot(
+  document.querySelector('#fromjs')
+)
+.render(<App/>);
