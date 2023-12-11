@@ -4,7 +4,7 @@ import ExampleComponent from './ExampleComponent.js'
 
 const App = () => {
     return (
-        <div className="App">
+        <div className='h-screen items-center justify-center'>
             <ExampleComponent/>
         </div>
     );
