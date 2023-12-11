@@ -3,11 +3,9 @@ import './styles/exampleComponent.css';
 
 const ExampleComponent = () => {
     return (
-        <div className='container'>
-            <div className='centered-div'>
-                <h1>
-                    Example Component
-                </h1>
+        <div className='h-full flex items-center justify-center'>
+            <div className='h-[100px] w-[500px] bg-light-blue text-center rounded-lg'>
+                <span className='text-white'>Component</span>
             </div>
         </div>
     )
